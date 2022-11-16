@@ -10,6 +10,7 @@ print(tf.__version__)
 
 X = np.arange(-10.0, 10.0, 1e-2)
 np.random.shuffle(X)
+#Formula de galones a litros
 y =  x * 3.78541
 
 train_end = int(0.6 * len(X))
